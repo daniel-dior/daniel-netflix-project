@@ -28,14 +28,17 @@ body {
     align-items: center;
     width: 100%;
 }
-.sign {
+.sign a{
     z-index: 100;
     width: 100px;
     height: 39px;
     background-color: rgb(229, 9, 20);
     color: rgb(255, 255, 255);
     font-size: 12px;
+    position: relative;
     font-weight: 600;
+    z-index: 100;
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
