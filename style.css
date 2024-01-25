@@ -44,7 +44,7 @@ body {
     align-items: center;
     cursor: pointer;
     border-radius: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 .logo img {
     z-index: 100;
