@@ -69,6 +69,7 @@ p {
 }
 form {
     margin-top: 50px;
+    width: 100%;
     margin-bottom: 30px;
 }
 input {
@@ -95,4 +96,20 @@ button  {
     color: white;
     font-size: 20px;
     border: none;
+   }
+   @media screen and (max-width:600px) {
+    .logo img {
+        z-index: 100;
+        position: relative;
+        width: 100px;
+      }
+      .navbar {
+        padding: 5px 10px;
+      }
+      .logo {
+        gap: 10px;
+      }
+      b {
+        font-size: 30px;
+      }
    }
