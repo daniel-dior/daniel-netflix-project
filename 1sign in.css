@@ -6,78 +6,174 @@
   body {
     color: white;
     background-color: black;
-    background-image: url(istockphoto-1437816897-612x612.jpg);
+    background-image: url(netflix\ heroimg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
   }
-  .flex {
-    border: 1px solid white;
-    width: 350px;
-    background-color: white;
-    box-shadow: 10px 10px 20px 10px rgb(36, 35, 35);
+  .dan {
+    background-image: url(netflix\ heroimg.jpg) ;
+    background-color: rgb(0 0 0 / 80%);
+    position: relative;
+    z-index: 100;
+    
+}
+.dann {
+    background-image: linear-gradient( to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0.8) 50% );
+    background-color: rgb(0 0 0 / 50%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 100px;
+    align-items: center;
+    width: 100%;
+}
+b {
+    color: red;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-right: -15px;
+    opacity: 0.9;
   }
-  .h2 {
-    background-color: black;
-    text-align: center;
-    padding: 10px;
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    opacity: none;
+    gap: -10px;
+}
+.logo img {
+    z-index: 100;
+    position: relative;
+    width: 200px;
   }
-  .h2 p {
-    color: white;
-  }
-  .h3 {
-    font-size: 25px;
-    font-weight: 10;
-    color: black;
-    margin-bottom: 5px;
-  }
-  .flex a {
-    text-decoration: none;
-    color: aqua;
-  }
-  p {
-    margin-bottom: 15px;
-    color: black;
-  }
-  .gap {
-    padding: 15px;
-  }
-  .abutton  {
-    border-radius: 10px;
-    border: 1px solid aqua;
-    background-color: aqua;
-    width: 300px;
-    height: 50px;
-    font-size: 20px;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  .link {
-    text-align: center;
-  }
-  .center {
-    height: 700px;
+  .body1 {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
-    .clas {
-      background-color: aqua;
-      width: 100px;
-      margin-top: 50px;
-      margin-bottom: 10px;
-      margin-right: 10px;
-      opacity: 0.7;
-      height: 25px;
-    }
-    .clas img:hover {
-      opacity: 0.5;
-      background-color: white;
-    }
-    .clas img {
-      width: 20px;
-    }
+  .border {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  opacity: 0.8;
+  padding: 50px 50px;
 
-    
-      
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+ .container h1 {
+  text-align: left;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .div1 input {
+  width: 100%;
+  padding: 10px ;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+ }
+ button  {
+  font-size: 20px;
+  padding: 1px 100px;
+  background-color: red;
+ }
+ .button input {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  border: none;
+ }
+ .a a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+ }
+ .a a:hover {
+  text-decoration: underline;
+ }
+ .div1 form {
+  margin-bottom: 100px;
+ }
+.div2 {
+  color: white;
+}
+.me input {
+  background-color: black;
+}
+.me {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.sam {
+  color: lightgray;
+  font-size: 20px; 
+  margin-bottom: 20px;
+}
+.sam a {
+  color: white;
+  text-decoration: none;
+}
+.sam a:hover {
+  text-decoration: underline;
+}
+.sam a:hover {
+  text-decoration: underline;
+}
+.div2 p {
+  color: lightgrey;
+}
+.emma {
+  color: rgb(0, 153, 255);
+  text-decoration: none;
+  font-weight: bolder;
+}
+.emma:hover {
+  text-decoration: underline;
+}
+.ella {
+  margin-bottom: 50px;
+}
+@media screen and (max-width:1000px) {
+  .navbar {
+    padding: 20px ;
+}
+}
+@media screen and (max-width:600px) {
+  body {
+    background-color: black;
+    background-image: none;
+  }
+  .dann {
+    display: none;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px ;
+    align-items: center;
+    width: 100%;
+}
+b {
+    font-size: 30px;
+  }
+  
+  .logo {
+    gap: 10px;
+}
+.logo img {
+    width: 100px;
+  }
+}
