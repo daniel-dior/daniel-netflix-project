@@ -9,6 +9,7 @@
     background-image: url(netflix\ heroimg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
   }
   .dan {
     background-image: url(netflix\ heroimg.jpg) ;
@@ -175,5 +176,8 @@ b {
 }
 .logo img {
     width: 100px;
+  }
+  .border {
+    padding: 50px 4px;
   }
 }

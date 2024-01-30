@@ -112,4 +112,10 @@ button  {
       b {
         font-size: 30px;
       }
+      h1 {
+        font-size: 30px;
+      }
+      .border {
+        margin: 10px 20px;
+      }
    }
